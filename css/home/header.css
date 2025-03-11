@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     max-height: 812px;
-    background: url(img/Hero_Image.png) no-repeat center center;
+    background: url(//img/Hero_Image.png) no-repeat center center;
     background-size: cover;
 }
 
