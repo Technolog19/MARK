@@ -1,0 +1,182 @@
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.expertise {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 100px;
+}
+
+.expertise__title {
+    color: rgb(77, 77, 77);
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.expertise__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60;
+    padding: 0px;
+    color: rgb(26, 26, 26);
+    font-family: Plus Jakarta Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -4%;
+    text-align: center;
+}
+
+.project__creative {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.projects {
+    width: 1360px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 560px;
+    margin: 40px;
+}
+
+.name__project {
+    gap: 16px;
+    width: 500px;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.number {
+    color: rgb(128, 128, 128);
+    font-family: Fragment Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -2%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.name {
+    color: rgb(26, 26, 26);
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -4%;
+    text-align: left;
+}
+
+.classification {
+    color: rgb(128, 128, 128);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.feature__project {
+    gap: 12px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature {
+    border-bottom: 1px solid rgb(201, 197, 197);
+    color: rgb(26, 26, 26);
+    font-family: Fragment Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -2%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    .projects {
+        width: 100%;
+        gap: 300px;
+        /* Уменьшаем зазор между элементами */
+    }
+
+    .name__project,
+    .feature__project {
+        width: auto;
+        /* Позволяет блокам занимать меньше места */
+    }
+}
+
+@media (max-width: 810px) {
+    .expertise {
+        margin: 50px;
+        /* Уменьшаем отступы */
+    }
+
+    .projects {
+        flex-direction: column;
+        /* Элементы располагаются вертикально */
+        gap: 30px;
+        height: auto;
+    }
+
+    .name__project,
+    .feature__project {
+        align-items: center;
+        /* Центрируем текст */
+        text-align: center;
+    }
+
+    .expertise__text {
+        font-size: 40px;
+        /* Уменьшаем размер шрифта */
+    }
+}
+
+@media (max-width: 390px) {
+    .expertise__title {
+        font-size: 24px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .expertise__text {
+        font-size: 30px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .name {
+        font-size: 24px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .projects {
+        margin: 20px;
+        /* Уменьшаем отступы */
+    }
+}

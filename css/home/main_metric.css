@@ -1,0 +1,95 @@
+/* .container-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.metric {
+    padding: 100px 100px 69px
+}
+
+.metric__title {
+    color: rgb(77, 77, 77);
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding-bottom: 100px;
+}
+
+.awards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 171px;
+    gap: 25px;
+}
+
+.icon__awards {
+    width: 56px;
+    height: 56px;
+}
+
+.awards__title {
+    color: rgb(26, 26, 26);
+    font-family: Fragment Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.awards__quantity {
+    color: rgb(77, 77, 77);
+    font-family: Plus Jakarta Sans;
+    font-size: 112px;
+    font-weight: 800;
+    line-height: 130%;
+    letter-spacing: -6%;
+    text-align: left;
+}
+
+.winners {
+    display:flex ;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.chel {
+    display: flex;
+    gap: 16px;
+}
+
+.img__chel {}
+
+.chislo__chel {}
+
+.chislo {}
+
+.name__winner {} */

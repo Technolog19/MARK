@@ -1,0 +1,30 @@
+.main {
+    font-family: 'Plus Jakarta Sans';
+}
+
+.container__work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.main__first-text {
+    max-width: 1067px;
+    height: 100%;
+    margin: 148px auto;
+    font-size: 57px;
+    font-weight: 700;
+
+}
+
+.first__text-white {}
+
+.first__text-black {
+    color: rgb(80, 80, 80);
+}

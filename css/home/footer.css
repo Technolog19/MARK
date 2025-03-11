@@ -1,0 +1,165 @@
+.container-9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.logo__f {
+    padding: 60px 20px 0px 20px;
+}
+
+.footer__logo {
+    max-width: 1400px;
+    width: 100%;
+}
+
+.footer__info {
+    height: 162px;
+    display: flex;
+    padding: 60px 0;
+    margin: 0 20px;
+    gap: 260px;
+
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.footer__email {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.footer__telephone {
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.footer__time {
+    color: rgb(128, 128, 128);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.foote__clock {
+    display: flex;
+    gap: 5px;
+}
+
+.clock {
+    color: rgb(26, 26, 26);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.time {
+    color: rgb(128, 128, 128);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.street {
+    width: 100%;
+    color: rgb(128, 128, 128);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.footer__social {}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: right;
+
+}
+
+.footer__list {
+    list-style-type: none;
+}
+
+.footer__link {
+    color: rgb(26, 26, 26);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+
+}
+
+.political {
+    background-color: rgb(250, 250, 250) ;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    gap: 200px;
+}
+
+.footer__text--white {
+    color: rgb(153, 153, 153);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: left;
+
+}
+
+.footer__text {
+    color: rgb(77, 77, 77);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+#scrollToTopButton{
+    background-color: rgb(250, 250, 250);
+    border: none;
+    cursor: pointer;
+}

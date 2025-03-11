@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: local('Plus Jakarta Sans Medium'), local('PlusJakartaSans-Medium'),
+        url('/font/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('/font/PlusJakartaSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: local('Plus Jakarta Sans Regular'), local('PlusJakartaSans-Regular'),
+        url('/font/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('/font/PlusJakartaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: local('Plus Jakarta Sans Light'), local('PlusJakartaSans-Light'),
+        url('/font/PlusJakartaSans-Light.woff2') format('woff2'),
+        url('/font/PlusJakartaSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fragment Mono';
+    src: local('Fragment Mono Regular'), local('FragmentMono-Regular'),
+        url('/font/FragmentMono-Regular.woff2') format('woff2'),
+        url('/font/FragmentMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fragment Mono';
+    src: local('Fragment Mono Italic'), local('FragmentMono-Italic'),
+        url('/font/FragmentMono-Italic.woff2') format('woff2'),
+        url('/font/FragmentMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

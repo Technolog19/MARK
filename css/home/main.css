@@ -1,0 +1,175 @@
+
+.main {
+    font-family: 'Plus Jakarta Sans';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.main__first-text {
+    max-width: 1067px;
+    height: 100%;
+    margin: 148px auto;
+    font-size: 57px;
+    font-weight: 700;
+
+}
+
+.first__text-white {}
+
+.first__text-black {
+    color: rgb(80, 80, 80);
+}
+
+/* ================================ */
+
+.author {
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin: 132px 150px;
+    flex-wrap: wrap;
+}
+
+.bred {
+    width: 400px;
+    height: 536px;
+}
+
+.statia {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -2%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+   padding: 5px ;
+}
+
+.author__text {}
+
+.work {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.img__uk {
+    width: 30px;
+    height: 18px;
+}
+
+.time {}
+
+.author__social {}
+
+.author__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    width: 20.5px;
+    height: 20.5px;
+}
+
+.hz {
+    padding-top: 10px;
+    color: rgb(179, 179, 179);
+    font-family: Fragment Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+@media (max-width: 1200px) {
+    .main__first-text {
+        margin: 100px auto; /* Уменьшаем отступ */
+        font-size: 48px; /* Уменьшаем размер шрифта */
+    }
+
+    .author {
+        margin: 100px 50px; /* Уменьшаем отступы */
+    }
+
+    .bred {
+        width: 350px; /* Уменьшаем ширину */
+        height: auto; /* Автоматическая высота */
+    }
+
+    .statia {
+        font-size: 20px; /* Уменьшаем размер шрифта */
+    }
+}
+
+/* Для экранов до 810px (планшеты) */
+@media (max-width: 810px) {
+    .main__first-text {
+        margin: 80px auto; /* Уменьшаем отступ */
+        font-size: 36px; /* Уменьшаем размер шрифта */
+    }
+
+    .author {
+        margin: 80px 20px; /* Уменьшаем отступы */
+        gap: 20px; /* Уменьшаем отступ между элементами */
+    }
+
+    .bred {
+        width: 300px; /* Уменьшаем ширину */
+    }
+
+    .statia {
+        font-size: 18px; /* Уменьшаем размер шрифта */
+    }
+
+    .author__list {
+        gap: 20px; /* Уменьшаем отступ между иконками */
+    }
+}
+
+/* Для экранов до 390px (мобильные устройства) */
+@media (max-width: 390px) {
+    .main__first-text {
+        margin: 60px auto; /* Уменьшаем отступ */
+        font-size: 24px; /* Уменьшаем размер шрифта */
+    }
+
+    .author {
+        margin: 60px 10px; /* Уменьшаем отступы */
+        gap: 10px; /* Уменьшаем отступ между элементами */
+    }
+
+    .bred {
+        width: 250px; /* Уменьшаем ширину */
+    }
+
+    .statia {
+        font-size: 16px; /* Уменьшаем размер шрифта */
+    }
+
+    .author__list {
+        gap: 10px; /* Уменьшаем отступ между иконками */
+    }
+
+    .hz {
+        font-size: 14px; /* Уменьшаем размер шрифта */
+    }
+}

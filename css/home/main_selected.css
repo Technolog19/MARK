@@ -1,0 +1,289 @@
+.main {
+    font-family: 'Plus Jakarta Sans';
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.selected {
+    padding: 100px 100px 69px
+}
+
+.selected__title {
+    color: rgb(77, 77, 77);
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.game__project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px;
+}
+
+.characteristics {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.client {
+    color: rgb(128, 128, 128);
+    font-family: Fragment Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -2%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.name__game {
+    color: rgb(26, 26, 26);
+    font-family: Plus Jakarta Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -4%;
+    text-align: left;
+}
+
+.details {
+    color: rgb(128, 128, 128);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.game__img {
+    width: 300px;
+    height: 180px;
+}
+
+.main {
+    font-family: 'Plus Jakarta Sans';
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.selected {
+    padding: 100px 100px 69px;
+}
+
+.selected__title {
+    color: rgb(77, 77, 77);
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.game__project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.characteristics {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.client {
+    color: rgb(128, 128, 128);
+    font-family: Fragment Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -2%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.name__game {
+    color: rgb(26, 26, 26);
+    font-family: Plus Jakarta Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -4%;
+    text-align: left;
+}
+
+.details {
+    color: rgb(128, 128, 128);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: left;
+}
+
+.game__img {
+    width: 300px;
+    height: 180px;
+}
+
+
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 100px;
+}
+
+.explore__title {
+    color: rgb(26, 26, 26);
+    font-family: Fragment Mono !important;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.explore__arrow {
+    width: 14px;
+    height: 14px;
+}
+
+
+/* Медиазапросы для адаптации */
+
+@media (max-width: 1200px) {
+    .selected {
+        padding: 80px 50px 50px;
+        /* Уменьшаем отступы */
+    }
+
+    .game {
+        padding: 30px;
+        /* Уменьшаем отступы */
+    }
+
+    .name__game {
+        font-size: 28px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .details {
+        font-size: 14px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .game__img {
+        width: 250px;
+        /* Уменьшаем ширину */
+        height: 150px;
+        /* Уменьшаем высоту */
+    }
+}
+
+@media (max-width: 810px) {
+    .selected {
+        padding: 60px 30px 30px;
+        /* Уменьшаем отступы */
+    }
+
+    .game {
+        flex-direction: column;
+        /* Элементы в столбик */
+        align-items: flex-start;
+        /* Выравниваем по левому краю */
+        gap: 20px;
+        /* Уменьшаем отступ между элементами */
+        padding: 20px;
+        /* Уменьшаем отступы */
+    }
+
+    .name__game {
+        font-size: 24px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .details {
+        font-size: 12px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .game__img {
+        width: 100%;
+        /* Занимаем всю доступную ширину */
+        height: auto;
+        /* Автоматическая высота */
+    }
+}
+
+@media (max-width: 390px) {
+    .selected {
+        padding: 40px 15px 15px;
+        /* Уменьшаем отступы */
+    }
+
+    .game {
+        gap: 15px;
+        /* Уменьшаем отступ между элементами */
+        padding: 15px;
+        /* Уменьшаем отступы */
+    }
+
+    .name__game {
+        font-size: 20px;
+        /* Уменьшаем размер шрифта */
+    }
+
+    .details {
+        font-size: 10px;
+        /* Уменьшаем размер шрифта */
+    }
+}
